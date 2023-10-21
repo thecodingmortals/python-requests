@@ -4,6 +4,7 @@ import json
 # Third Party Stuff
 import requests
 
+
 class BaseHTTPRequest:
     def __init__(
         self, api_URL, data=dict(), api_headers=dict(), x_auth_token=None, x_auth_client=None, query_dict=None
